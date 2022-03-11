@@ -1,0 +1,18 @@
+{
+  "name": "01-jest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^27.5.1"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.4.1"
+  }
+}
