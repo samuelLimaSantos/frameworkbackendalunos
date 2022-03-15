@@ -23,6 +23,5 @@ describe('Calculo do desconto', () => {
         const descontoCalculado = calcularDesconto(codigoCupom, 90, dataReferencia)
         expect(descontoCalculado).toBe(0)
     })
-    
 
 })
