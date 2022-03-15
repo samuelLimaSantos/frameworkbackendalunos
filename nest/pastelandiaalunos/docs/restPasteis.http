@@ -2,19 +2,19 @@ POST http://localhost:3000/pasteis HTTP/1.1
 content-type: application/json
 
 {
-    "nome": "Sertanejo",
-    "preco": 9,
+    "nome": "Pizza",
+    "preco": 12,
     "ingredientes": [
         {
-            "nome": "Charque",
+            "nome": "Queijo",
             "quantidade": 300
         },
         {
-            "nome": "Queijo coalho",
+            "nome": "Presunto",
             "quantidade": 100
         },
         {
-            "nome": "Cebola",
+            "nome": "Orégano",
             "quantidade": 20
         }
     ]

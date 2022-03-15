@@ -1,0 +1,18 @@
+POST http://localhost:3000/pedidos HTTP/1.1
+content-type: application/json
+
+{
+    "idCliente": 1,
+    "itens": [
+        {
+            "id": 1,
+            "quantidade": 20
+        },
+        {
+            "id": 2,
+            "quantidade": 30
+        }
+    ]
+}
+
+

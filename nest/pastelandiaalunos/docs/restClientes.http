@@ -1,0 +1,16 @@
+POST http://localhost:3000/clientes HTTP/1.1
+content-type: application/json
+
+{
+    "nome": "Samuel Santos",
+    "email": "samuelsantos@gmail.com"
+}
+
+###
+
+GET http://localhost:3000/clientes
+
+
+###
+
+GET http://localhost:3000/clientes?nome=samu
