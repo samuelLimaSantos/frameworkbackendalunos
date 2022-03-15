@@ -1,0 +1,33 @@
+POST http://localhost:3000/pasteis HTTP/1.1
+content-type: application/json
+
+{
+    "nome": "Sertanejo",
+    "preco": 9,
+    "ingredientes": [
+        {
+            "nome": "Charque",
+            "quantidade": 300
+        },
+        {
+            "nome": "Queijo coalho",
+            "quantidade": 100
+        },
+        {
+            "nome": "Cebola",
+            "quantidade": 20
+        }
+    ]
+}
+
+###
+
+GET http://localhost:3000/pasteis
+
+
+###
+
+GET http://localhost:3000/pasteis?ingrediente=mussarela&sabor=por
+
+###
+DELETE http://localhost:3000/pasteis/2
